@@ -1,6 +1,1 @@
-dila dak puasoooooo
-@extends('layouts.app')
-@section('content')
-@include('layouts.parts.hero')
-    
-@endsection
+selamat datang di website ini 

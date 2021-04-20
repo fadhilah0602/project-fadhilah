@@ -54,9 +54,8 @@
                     </div>
                     
                     <button
-                        class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Sign In</button>
-                    <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral
-                        artisan.</p>
+                        class="text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Sign In</button>
+                    <p class="text-xs text-gray-500 mt-3">  Politeknik Negeri Padang</p>
                 </div>
                 </form>
             </div>
