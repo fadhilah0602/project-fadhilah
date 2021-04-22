@@ -7,14 +7,14 @@
       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-gray-400	flex flex-wrap items-center text-base justify-center">
       @if(Auth::check())
         @if(Auth::user()->role->name=='admin')
-        <a class="mr-5 hover:text-gray-900">Dashboard</a>
+        {{-- <a class="mr-5 hover:text-gray-900">Dashboard</a> --}}
         <a href="{{ route('pegawai.index') }}" class="mr-5 hover:text-gray-900">Pegawai</a>
         <a href="{{ route('bagian.browse') }}" class="mr-5 hover:text-gray-900">Bagian</a>
         <a href="{{ route('undangan.browse') }}" class="mr-5 hover:text-gray-900">Undangan</a>
         <a href="{{ route('role.browse') }}" class="mr-5 hover:text-gray-900">Role</a>
         {{-- <a href="{{ route('undangan_pegawai.index') }}" class="mr-5 hover:text-gray-900">Undangan Pegawai</a>
         <a href="{{ route('undangan_bagian.index') }}" class="mr-5 hover:text-gray-900">Undangan Bagian</a> --}}
-        <a class="mr-5 hover:text-gray-900">Contact</a>
+        {{-- <a class="mr-5 hover:text-gray-900">Contact</a> --}}
         @endif
       @endif
       </nav>
