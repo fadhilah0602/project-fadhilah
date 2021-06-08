@@ -71,10 +71,10 @@
                                     <option value="0" {!! old('status') == '0' ? 'selected':'' !!}>Tidak Aktif</option>   
                     </select>
             </div>
-            <div class="relative mb-4">
+            {{-- <div class="relative mb-4">
                 <label for="dokumen" class="leading-7 text-sm text-gray-600">Dokumen</label>
                 <input type="file" id="dokumen" name="dokumen" accept="application/pdf,application/vnd.ms-excel" class="w-full bg-white rounded border border-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-            </div>
+            </div> --}}
             <button type="submit" class="my-1 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Save</button>
             <button type="reset" class="my-1 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Clear</button>
             
